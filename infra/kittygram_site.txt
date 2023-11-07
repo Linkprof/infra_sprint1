@@ -1,0 +1,5 @@
+IP: 158.160.1.137;
+name_taski: https://linkprof.ddns.net/;
+name_kittygram: https://kittygramhouse.ddns.net/;
+login: User;
+password: 123;
