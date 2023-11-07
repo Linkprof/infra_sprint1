@@ -61,6 +61,7 @@ python manage.py createsuperuser
 Создайте файл **.env** в папке **backend** (в папке с `manage.py`).
 
 7. В этом файле заполнить следующие значения:
+```
    SECRET_KEY=<Ваш ключ>
    ALLOWED_HOSTS=127.0.0.1, localhost, <Ваш IP адрес>
    DEBUG = False
