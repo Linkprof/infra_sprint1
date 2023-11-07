@@ -7,9 +7,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv()
 SECRET_KEY = os.getenv('KEY')
 
-DEBUG = False
+DEBUG = os.getenv('DEBUG_VALUE') == 'TRUE'
 
-ALLOWED_HOSTS = ['158.160.1.137', '127.0.0.1', 'localhost', 'kittygramhouse.ddns.net']
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS").split(",")
 
 INSTALLED_APPS = [
     'django.contrib.admin',
